@@ -1,0 +1,556 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*Tamaño desde border*/
+
+*, ::after, ::before, :not(img) {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+section.container {
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*Barra de Navegacion Lateral*/
+
+ul.side-nav {
+    width: 330px;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(102, 35, 35, 1);
+    list-style: none;
+}
+
+/*centrado casilla del logo*/
+
+.side-nav .logo {
+    padding: 50px 40px;
+}
+
+/*imagen del logo*/
+
+.side-nav .logo img {
+    width: 250px;
+    height: 59px;
+}
+
+/*relleno de las casilla li*/
+
+li.subtitle, li.option {
+    padding-left: 41px;
+}
+
+/*estilo de subtitulos*/
+
+li.subtitle h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    line-height: 27, 5px;
+    font-weight: 700;
+}
+
+/*cada clase opcion de la lista*/
+
+li.option {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+li.option:hover {
+    border-left: solid 4px rgba(232, 96, 96, 1);
+}
+
+li.option>a:hover {
+    color: rgba(232, 96, 96, 1);
+    text-decoration: none;
+}
+
+li.option>a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+ul li.subtitle:nth-of-type(8) {
+    /*Verificar*/
+    margin-top: 24px;
+}
+
+/*Contenedor principal*/
+
+main {
+    margin-left: 330px;
+}
+
+/*Slider*/
+
+section.slider {
+    width: 100%;
+    padding: 40px;
+    color: white;
+}
+
+.info-content span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.info-content h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.info-content span.followers {
+    color: rgba(102, 35, 35, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+/* contendor slider*/
+
+article.slider-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*imagen de cada slider y boton*/
+
+.slider-wrap .slide-img {
+    position: relative;
+}
+
+.slider-wrap .slide-img>img {
+    width: 250px;
+    height: 250px;
+}
+
+/*botton de la primer resultado*/
+
+.slide-img button {
+    position: absolute;
+    top: 89px;
+    left: 92px;
+    width: 63px;
+    height: 72px;
+    padding: 0;
+    font-size: 60px;
+    color: rgb(253, 254, 254);
+    border: none;
+    background: -o-linear-gradient(bottom, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(167, 0, 0, 0)), to(rgba(167, 0, 0, 0)));
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    cursor: pointer;
+}
+
+.slide-img button:hover {
+    opacity: 0.5;
+}
+
+.slide-img button:active {
+    opacity: 1;
+}
+
+.slider-wrap .slide-content {
+    background: -o-linear-gradient(bottom, rgba(167, 0, 0, 0.7), rgba(167, 0, 0, 0.7)), url(../img/the-wekeend-banner.jpg);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(167, 0, 0, 0.7)), to(rgba(167, 0, 0, 0.7))), url(../img/the-wekeend-banner.jpg);
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0.7), rgba(167, 0, 0, 0.7)), url(../img/the-wekeend-banner.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+
+.slide-content .info-content {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/*opciones de info*/
+
+.option-content input[type="button"] {
+    border: 1px solid #EB5757;
+    border-radius: 100px;
+    background: transparent;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #EB5757;
+}
+
+.option-content input[type="button"]:hover {
+    border: 1px solid #EB5757;
+    border-radius: 100px;
+    background: #E86060;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/*Seccion resultado de busqueda*/
+
+section.music-result {
+    width: 100%;
+    padding: 40px;
+}
+
+/*titulo*/
+
+.music-result .title-section {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.music-result .title-section h2 {
+    color: rgba(232, 96, 96, 1);
+}
+
+/*lista resultado*/
+
+div.music-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+article.music-item {
+    width: 160px;
+    padding-bottom: 30px;
+}
+
+article.music-item .music-img {
+    position: relative;
+}
+
+/*imagen item resultado*/
+
+article.music-item .music-img>img {
+    width: 160px;
+    height: 160px;
+}
+
+/*boton item resultad*/
+
+.music-img button {
+    position: absolute;
+    top: 62px;
+    left: 64px;
+    width: 32px;
+    height: 42px;
+    font-size: 32px;
+    color: rgb(253, 254, 254);
+    border: none;
+    background: -o-linear-gradient(bottom, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(167, 0, 0, 0)), to(rgba(167, 0, 0, 0)));
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    cursor: pointer;
+}
+
+.music-img button :hover {
+    opacity: 0.5;
+}
+
+.music-img button :active {
+    opacity: 1;
+}
+
+.player-music {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(235, 87, 87, 1);
+    padding: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.player-music .player-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.player-wrap .info-player {
+    max-width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.info-player .info-img>img {
+    width: 100px;
+    height: 100px;
+}
+
+.info-player .info-player-content {
+    margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+/*botones reproductor*/
+
+.player-wrap .buttons-player {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.player-wrap .audio-player {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*Seccion botones de reproductor*/
+
+.player-wrap .buttons-player button {
+    margin-right: 15px;
+    color: white;
+    width: 36px;
+    height: 36px;
+    background: -o-linear-gradient(bottom, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(167, 0, 0, 0)), to(rgba(167, 0, 0, 0)));
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    border: none;
+    font-size: 22px;
+}
+
+.player-wrap .buttons-player button:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3)));
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    border: none;
+    border-radius: 36px;
+    font-size: 22px;
+}
+
+.player-wrap .buttons-player button :hover {
+    opacity: 0.5;
+}
+
+.player-wrap .buttons-player button :active {
+    opacity: 1;
+}
+
+/*Personalizar input range*/
+
+.audio-player input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+.audio-player input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.audio-player input[type=range]:focus {
+    outline: none;
+}
+
+.audio-player input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.audio-player input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -14px;
+    -webkit-box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+/* Firefox */
+
+.audio-player input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+/* IE */
+
+.audio-player input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+/*------------------*/
+
+.audio-player input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -6px;
+    -webkit-box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+.audio-player input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.audio-player input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+/*---------------*/
+
+.audio-player input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: white;
+    border-radius: 10px;
+}
+
+.audio-player input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.audio-player input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: white;
+    border-radius: 10px;
+}
+
+.audio-player input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+
+.audio-player input[type=range]::-ms-fill-lower {
+    background: white;
+    border-radius: 10px;
+}
+
+.audio-player input[type=range]:focus::-ms-fill-lower {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.audio-player input[type=range]::-ms-fill-upper {
+    background: white;
+    border-radius: 10px;
+}
+
+.audio-player input[type=range]:focus::-ms-fill-upper {
+    background: white;
+}
+
+/*boton audio*/
+
+.audio-player button {
+    margin-right: 15px;
+    color: white;
+    width: 36px;
+    height: 36px;
+    background: -o-linear-gradient(bottom, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(167, 0, 0, 0)), to(rgba(167, 0, 0, 0)));
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0), rgba(167, 0, 0, 0));
+    border: none;
+    font-size: 22px;
+}
+
+.audio-player button :hover {
+    opacity: 0.5;
+}
+
+.audio-player button :active {
+    opacity: 1;
+}
